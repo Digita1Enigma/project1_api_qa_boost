@@ -16,3 +16,8 @@ python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 pytest -v
+tests/                  # тесты (позитив/негатив/параметризация/схемы)
+conftest.py             # фикстуры и опции
+pytest.ini              # конфигурация pytest
+requirements.txt        # зависимости
+
