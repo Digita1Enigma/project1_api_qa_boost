@@ -3,7 +3,7 @@
 Учебный проект по автоматизации REST API на Python.
 
 ## Стек
-Python 3.9 · pytest · requests · jsonschema · pytest-html · GitHub
+Python 3.11 · pytest · requests · jsonschema · pytest-html · GitHub
 
 ## Что покрыто
 - **Позитивные:** `GET /posts`, `GET /posts/{id}`, `POST /posts`.
@@ -20,4 +20,7 @@ tests/                  # тесты (позитив/негатив/параме
 conftest.py             # фикстуры и опции
 pytest.ini              # конфигурация pytest
 requirements.txt        # зависимости
-
+Скриншоты:
+![bandicam 2025-08-17 13-12-04-613](https://github.com/user-attachments/assets/842efc91-f0e3-4cfd-9c08-65bdf53d37b8)
+![bandicam 2025-08-17 13-15-48-878](https://github.com/user-attachments/assets/d64bdcb5-f48d-483a-a84a-fe821c42f624)
+![bandicam 2025-08-17 13-13-30-918](https://github.com/user-attachments/assets/8b7214de-24ab-43b1-807c-89749e8a330e)
