@@ -1,0 +1,17 @@
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Виртуальное окружение
+.venv/
+
+# Отчёты и артефакты
+*.html
+reports/
+
+# IDE
+.vscode/
+.idea/
