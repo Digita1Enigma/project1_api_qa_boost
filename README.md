@@ -21,8 +21,18 @@ python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 pytest -v
+
+HTML-отчёт:
+pytest -v --html=reports/report.html --self-contained-html
+
+Структура:
 tests/                  # тесты (позитив/негатив/параметризация/схемы)
 conftest.py             # фикстуры и опции
 pytest.ini              # конфигурация pytest
 requirements.txt        # зависимости
 
+Примечание:
+```bash
+git add README.md .gitignore
+git commit -m "Docs: add README and .gitignore"
+git push
